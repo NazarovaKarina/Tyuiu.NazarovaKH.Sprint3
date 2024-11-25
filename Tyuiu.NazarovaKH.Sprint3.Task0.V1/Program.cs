@@ -12,7 +12,7 @@ namespace Tyuiu.NazarovaKH.Sprint3.Task0.V1
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double value = 5;
+            int value = 5;
             int startValue = 1;
             int stopValue = 15;
 
