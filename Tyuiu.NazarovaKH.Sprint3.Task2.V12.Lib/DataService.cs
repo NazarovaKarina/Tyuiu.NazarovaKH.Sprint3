@@ -6,7 +6,7 @@ namespace Tyuiu.NazarovaKH.Sprint3.Task2.V12.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double MultiplySeries = 0;
+            double MultiplySeries = 1;
             do
             {
                 MultiplySeries = MultiplySeries + (Math.Pow (300 / (startValue + Math.Pow (value, startValue)), startValue));
