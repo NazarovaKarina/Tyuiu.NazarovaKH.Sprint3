@@ -21,6 +21,7 @@ namespace Tyuiu.NazarovaKH.Sprint3.Task7.V30.Lib
                 else
                 {
                     y = ((5 * x + 2.5) / (Math.Sin(x) + 2)) + 2 * x + 2;
+                    y = Math.Round(y, 2);
                 }
                 valueArray[count] = y;
                 count++;
