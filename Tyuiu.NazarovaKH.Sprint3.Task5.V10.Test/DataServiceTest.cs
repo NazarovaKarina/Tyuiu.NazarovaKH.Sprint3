@@ -15,7 +15,7 @@ namespace Tyuiu.NazarovaKH.Sprint3.Task5.V10.Test
             int d = 10; 
             int e = 5;
             var res = ds.GetSumSumSeries(x, y, z, d, e);
-            Assert.AreEqual(1, res);
+            Assert.AreEqual(200, res);
         }
     }
 }
