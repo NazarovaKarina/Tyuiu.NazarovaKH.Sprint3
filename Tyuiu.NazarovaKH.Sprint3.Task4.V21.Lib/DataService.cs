@@ -6,16 +6,12 @@ namespace Tyuiu.NazarovaKH.Sprint3.Task4.V21.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double res = 0;
+            double res = 1;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0)
+                if (x != 0)
                 {
-                    break;
-                }
-                else
-                {
-                    res = res * (((Math.Cos(x)) - x) / x);
+                    res *= ((Math.Cos(x) - x) / x);
                 }
             }
             return Math.Round(res, 3);

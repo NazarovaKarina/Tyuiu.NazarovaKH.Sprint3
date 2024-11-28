@@ -12,8 +12,8 @@ namespace Tyuiu.NazarovaKH.Sprint3.Task4.V21
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int startValue = 1;
-            int stopValue = 18;
+            int startValue = -5;
+            int stopValue = 5;
 
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
@@ -22,7 +22,7 @@ namespace Tyuiu.NazarovaKH.Sprint3.Task4.V21
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Произведение ряда = " + ds.Calculate( startValue, stopValue));
+            Console.WriteLine("Произведение ряда = " + ds.Calculate(startValue, stopValue));
             Console.ReadKey();
         }
     }
