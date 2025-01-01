@@ -6,7 +6,7 @@ namespace Tyuiu.NazarovaKH.Sprint3.Task1.V28.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
-            double sumSeries = 1;
+            double sumSeries = 0;
             while (startValue <= stopValue)
             {
                 sumSeries = sumSeries + ((Math.Pow(value, startValue) + 0.25) * Math.Cos(startValue));
